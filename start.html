@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <h1>Registration Form</h1>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <br /><br />
+      <label for="name">Name </label>
+      <input type="text" name="name" id="name" />
+      <br /><br />
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" />
+      <br /><br />
+      <label for="date">Date of Birth</label>
+      <input type="date" name="date" id="date" />
+      <br /><br />
+      <label for="phone">Phone Number</label>
+      <input type="number" name="phone" id="phone" />
+      <br /><br />
+      <label for="plan">Choose a Plan</label>
+      <select name="plan" id="plan">
+        <option value="freeplan">Free Plan</option>
+        <option value="standartplan">Standart Plan 9.99$</option>
+        <option value="eliteplan">Elite Plan 19.99$</option>
+        <option value="platinumplan">Platinum Plan 39.99$</option>
+      </select>
+      <br /><br />
+      <label for="proplan">Pro Plan</label>
+      <input type="checkbox" name="proplan" id="proplan" />
+      <br /><br />
+      <label for="cardnumber">Credit Card Number</label>
+      <input
+        type="text"
+        id="cardnumber"
+        name="cardnumber"
+        placeholder="1111-2222-3333-4444"
+      />
+      <br /><br />
+      <label for="cvc">CVC</label>
+      <input type="text" id="cvc" name="cvc" placeholder="345" />
+      <br /><br />
+      <label for="expmonth">Expire Month</label>
+      <input
+        type="text"
+        id="expmonth"
+        name="expmonth"
+        placeholder="September"
+      />
+      <br /><br />
+      <div>
+        <h3>Billing Address</h3>
+        <label for="address"> Address</label>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="542 W. 15th Street"
+        />
+        <br /><br />
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="New York" />
+        <br /><br />
+        <label for="state">State</label>
+        <input type="text" name="state" id="state" placeholder="NY" />
+        <br /><br />
+        <label for="zip">Zip </label>
+        <input type="text" name="zip" id="zip" placeholder="11001" />
+      </div>
+    </form>
+  </body>
+</html>
